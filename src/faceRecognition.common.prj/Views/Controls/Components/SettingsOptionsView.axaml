@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:components="clr-namespace:FaceRecognition.Common.Views.Controls.Components"
+             x:Class="FaceRecognition.Common.Views.Controls.Components.SettingsOptionsView">
+
+	<ItemsControl Items="{Binding Path=$parent[components:SettingsOptionsView].UpdatedOptionsItems}" Margin="2" HorizontalAlignment="Left">
+		<ItemsControl.ItemTemplate>
+			<DataTemplate>
+				<CheckBox Margin="2"
+                          IsChecked="{Binding IsChecked}"
+                          IsEnabled="{Binding IsEnabledItem}"
+                          Content="{Binding Description}"/>
+			</DataTemplate>
+		</ItemsControl.ItemTemplate>
+	</ItemsControl>
+
+</UserControl>

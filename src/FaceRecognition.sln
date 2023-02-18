@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "faceRecognition.gui", "faceRecognition.gui.prj\faceRecognition.gui.csproj", "{B5B3DBE9-0663-40B5-A6EF-C5D14FF6AC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "faceRecognition.common", "faceRecognition.common.prj\faceRecognition.common.csproj", "{9C0431BA-BB75-4FB3-A1B3-E1DCFEA15A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B3DBE9-0663-40B5-A6EF-C5D14FF6AC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B3DBE9-0663-40B5-A6EF-C5D14FF6AC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B3DBE9-0663-40B5-A6EF-C5D14FF6AC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B3DBE9-0663-40B5-A6EF-C5D14FF6AC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0431BA-BB75-4FB3-A1B3-E1DCFEA15A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0431BA-BB75-4FB3-A1B3-E1DCFEA15A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0431BA-BB75-4FB3-A1B3-E1DCFEA15A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0431BA-BB75-4FB3-A1B3-E1DCFEA15A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9AAD2DD-316D-476A-B117-52C8FECD7AEE}
+	EndGlobalSection
+EndGlobal
